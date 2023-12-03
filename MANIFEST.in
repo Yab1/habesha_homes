@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include habeshahomes *.css
+recursive-include habeshahomes *.csv
+recursive-include habeshahomes *.html
+recursive-include habeshahomes *.ico
+recursive-include habeshahomes *.js
+recursive-include habeshahomes *.json
+recursive-include habeshahomes *.md
+recursive-include habeshahomes *.png
+recursive-include habeshahomes *.py
+recursive-include habeshahomes *.svg
+recursive-include habeshahomes *.txt
+recursive-exclude habeshahomes *.pyc
